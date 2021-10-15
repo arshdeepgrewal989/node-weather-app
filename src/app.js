@@ -70,20 +70,6 @@ app.get('/weather', (req, res) => {
     })
 })
 
-app.get('/products', (req, res) => {
-
-    if (!req.query.search){
-        return res.send({
-            error: "Must provide search term"
-        })
-    }
-
-    console.log(req.query.search)
-    res.send({
-        products: []
-    })
-})
-
 // help subdirectory support
 app.get('/help/*', (req,res) => {
     res.render('404', {
