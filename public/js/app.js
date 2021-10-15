@@ -10,6 +10,7 @@ const msgOne = document.querySelector('#msg-1')
 const msgTwo = document.querySelector('#msg-2')
 
 
+// submit button respose
 weatherForm.addEventListener('submit', (event) => {
 
     event.preventDefault()
