@@ -6,4 +6,4 @@ https://deeps-weather-application.herokuapp.com
 
 or by 
 
-**$ node /src/app.js 
+**$** node /src/app.js 
