@@ -4,6 +4,6 @@
 
 https://deeps-weather-application.herokuapp.com
 
-or by 
+Run app locally with:
 
 **$** node /src/app.js 
